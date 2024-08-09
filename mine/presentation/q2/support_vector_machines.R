@@ -3,7 +3,7 @@ install.packages("caret")
 library(caret)
 
 # Read data into the 'diabetes_data' variable
-diabetes_data = read.csv("/Users/tunwa/Documents/coding-files/cpe322/presentation/diabetes.csv", sep = ",", header = TRUE)
+diabetes_data = read.csv("/Users/tunwa/Documents/coding-files/cpe322/mine/presentation/diabetes.csv", sep = ",", header = TRUE)
 View(diabetes_data)
 
 # Generates a randomized sample of size (number of data samples) containing 0s and 1s using the ratio 8:2
